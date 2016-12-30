@@ -200,7 +200,7 @@
     <elementParameter field="CHECK" name="NOVALIDATE_ON_CELL" value="false" show="false"/>
     <elementParameter field="CHECK" name="SUPPRESS_WARN" value="false" show="false"/>
     <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="USER_MODE"/>
-    <elementParameter field="TEXT" name="LABEL" value="extraProduct"/>
+    <elementParameter field="TEXT" name="LABEL" value="extractProduct"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="product_metadata" name="tFileInputExcel_1">
       <column comment="" key="false" length="7" name="Product_Number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
@@ -245,7 +245,7 @@
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="maphybris"/>
+    <elementParameter field="TEXT" name="LABEL" value="mapHybris"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="productOutput" name="productOutput">
       <column comment="" key="false" length="10" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="32" usefulColumn="true"/>
