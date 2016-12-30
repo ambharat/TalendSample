@@ -248,7 +248,7 @@
     <elementParameter field="TEXT" name="LABEL" value="maphybris"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="productOutput" name="productOutput">
-      <column comment="" key="false" length="32" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="32" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="32" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="Product_Number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="SKU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="Product_Size" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
@@ -265,7 +265,7 @@
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="productOutput">
-        <mapperTableEntries name="Id" expression="TalendString.getAsciiRandomString(32) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Id" expression="TalendString.getAsciiRandomString(10) " type="id_String" nullable="true"/>
         <mapperTableEntries name="Product_Number" expression="readProduct.Product_Number " type="id_Integer" nullable="true"/>
         <mapperTableEntries name="SKU" expression="readProduct.SKU " type="id_String" nullable="true"/>
         <mapperTableEntries name="Product_Size" expression="readProduct.Product_Size " type="id_String" nullable="true"/>
@@ -324,7 +324,7 @@
     <elementParameter field="TEXT" name="LABEL" value="product_Impex"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="productOutput" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="32" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="32" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Id" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="32" usefulColumn="true"/>
       <column comment="" key="false" length="7" name="Product_Number" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true"/>
       <column comment="" key="false" length="8" name="SKU" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="Product_Size" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
