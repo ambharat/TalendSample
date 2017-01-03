@@ -781,7 +781,7 @@
       <column comment="" key="false" length="-1" name="id" nullable="true" pattern="" precision="-1" sourceType="" type="id_Integer" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="output_product">
         <mapperTableEntries name="Product_Number" expression="productRead.Product_Number" type="id_Integer" nullable="true"/>
@@ -812,7 +812,7 @@
         <mapperTableEntries name="Location_Key" expression="productRead.Location_Key" type="id_Integer" nullable="true"/>
         <mapperTableEntries name="Initial_Insert_flag" expression="productRead.Initial_Insert_flag" type="id_String" nullable="true"/>
         <mapperTableEntries name="current_flag" expression="productRead.current_flag" type="id_Boolean" nullable="true"/>
-        <mapperTableEntries name="Initial_Insert_Date" expression="productRead.Initial_Insert_Date" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Initial_Insert_Date" expression="productRead.Initial_Insert_Date " type="id_String" nullable="true"/>
         <mapperTableEntries name="Process_Flag" expression="&quot;Y&quot; " type="id_String" nullable="true"/>
         <mapperTableEntries name="process_date" expression="TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;) " type="id_String" nullable="true"/>
         <mapperTableEntries name="Updated_By" expression="productRead.Updated_By" type="id_String" nullable="true"/>
