@@ -118,6 +118,8 @@
       <relatedItems xmi:id="_BvPLkM6yEeaT-vlK983OGg" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_BvPLkc6yEeaT-vlK983OGg" id="_tQKG8M6rEeaT-vlK983OGg - product_metadata" version="Latest" type="schema"/>
       <relatedItems xmi:id="_EmrmENCcEea6P7gqAfVIaw" id="_h8PQsM9xEeaZUKmCT7KjrA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_kltIYNFVEeaI9bxCO3Fl4Q" id="_xTzFQNFNEeaI9bxCO3Fl4Q" version="Latest" type="property"/>
+      <relatedItems xmi:id="_kltIYdFVEeaI9bxCO3Fl4Q" id="_xTzFQNFNEeaI9bxCO3Fl4Q - talend_xref" version="Latest" type="schema"/>
     </ItemsRelations>
     <deletedFolders>metadata/connections/product</deletedFolders>
     <migrationTask xmi:id="_ZKcDgMy2EeaGJIvt0BPaxA" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
