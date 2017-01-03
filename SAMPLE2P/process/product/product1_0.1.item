@@ -111,8 +111,6 @@
   </parameters>
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputExcel_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_tQKG8M6rEeaT-vlK983OGg" show="false"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;/Users/c001204/Downloads/Consolidated doc/Product Doc/Guidance_Data_Extract.xlsx&quot;"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
@@ -122,7 +120,7 @@
     </elementParameter>
     <elementParameter field="TEXT" name="HEADER" value="1"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
-    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="TEXT" name="LIMIT" value="2"/>
     <elementParameter field="CHECK" name="AFFECT_EACH_SHEET" value="false"/>
     <elementParameter field="TEXT" name="FIRST_COLUMN" value="1"/>
     <elementParameter field="TEXT" name="LAST_COLUMN" value=""/>
