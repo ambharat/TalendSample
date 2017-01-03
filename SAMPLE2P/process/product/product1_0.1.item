@@ -279,7 +279,7 @@
         <mapperTableEntries name="Backorderable" expression="product.Backorderable " type="id_Character" nullable="true"/>
         <mapperTableEntries name="POExpect" expression="product.POExpect " type="id_String" nullable="true"/>
         <mapperTableEntries name="Location_Key" expression="product.Location_Key " type="id_Integer" nullable="true"/>
-        <mapperTableEntries name="Initial_Insert_flag" expression="!Relational.ISNULL(row1.Model_Number)?&quot;Y&quot;:&quot;N&quot; " type="id_String" nullable="true"/>
+        <mapperTableEntries name="Initial_Insert_flag" expression="!Relational.ISNULL(row1.Model_Number)?&quot;N&quot;:&quot;Y&quot; " type="id_String" nullable="true"/>
         <mapperTableEntries name="Initial_Insert_Date" expression="TalendDate.getDate(&quot;CCYY-MM-DD&quot;) " type="id_String" nullable="true"/>
         <mapperTableEntries name="Process_Flag" expression="&quot;N&quot; " type="id_String" nullable="true"/>
         <mapperTableEntries name="Process_Date" type="id_String" nullable="true"/>
