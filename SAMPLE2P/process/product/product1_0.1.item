@@ -282,7 +282,7 @@
         <mapperTableEntries name="Initial_Insert_flag" expression="!Relational.ISNULL(row1.Model_Number)?&quot;N&quot;:&quot;Y&quot; " type="id_String" nullable="true"/>
         <mapperTableEntries name="Initial_Insert_Date" expression="TalendDate.getDate(&quot;CCYY-MM-DD&quot;) " type="id_String" nullable="true"/>
         <mapperTableEntries name="Process_Flag" expression="&quot;N&quot; " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Process_Date" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Process_Date" expression="" type="id_String" nullable="true"/>
         <mapperTableEntries name="Updated_By" expression="&quot;Bharat&quot; " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="product" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
